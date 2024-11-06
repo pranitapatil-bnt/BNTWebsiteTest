@@ -1,0 +1,50 @@
+.myBG {
+    /* background-image: url('../../public/aboutus/images/lifeatbntBg.jpg'); */
+    background: linear-gradient(rgba(30, 9, 87, 0.6),rgba(30, 9, 87, 0.6)), url('../../public/career/images/careerBGMinNew.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+}
+
+.photoGridImgBack {
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: 0.4s ease;
+    overflow: hidden;
+    
+}
+
+/* .photoGridImgBack img{
+    transition: 0.4s ease;
+}
+
+.photoGridImgBack img:hover{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+} */
+
+.textShadow {
+      text-shadow: 0 13.36px 8.896px #2c482e, 0 -2px 1px #fff;
+    letter-spacing: -4px;
+    color: #fff;
+}
+
+
+.joinUs{
+    position: relative;
+    z-index: 1;
+}
+
+.joinUs::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../../public/aboutus/images/joinUs4New.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(1px);
+  }

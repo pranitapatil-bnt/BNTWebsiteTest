@@ -1,0 +1,159 @@
+.dupesBackground {
+    height: 100vh;
+    /* background-image: url('../../public/solutions/Dupes/blurrygradient.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
+}
+
+.configBox {
+    background-image: url('../../public/solutions/Configpay/configImg.png');
+    /* background: linear-gradient(rgba(248, 206, 171, 0.7),rgba(250, 217, 180, 0.7)), url(../../public/solutions/Configpay/configImg.png); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed;  */
+}
+
+.myBG {
+    background-image: url('../../public/solutions/solutionsBG-min.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+}
+
+.configSubHead {
+    width: 100%;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #388e3c;
+    font-family: 'Alexandria';
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding-left: 25px;
+}
+
+.remitanceBox {
+    background-image: url('../../public/solutions/Dupes/waves.png');
+    /* background: linear-gradient(rgba(248, 206, 171, 0.7),rgba(250, 217, 180, 0.7)), url(../../public/solutions/Configpay/configImg.png); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed;  */
+    transform: skew(-17deg) !important;
+    /* border:1px solid black; */
+
+}
+
+
+/* .dupesblob:before {
+    content: '1';
+    position: absolute;
+    top: 10px;
+    right: 100px;
+    width: 65px;
+    height: 65px;
+    margin: 0;
+    margin-left: 20px;
+    color:#545454;
+    font-weight:bold;
+    background: #eff0f4;
+    border-radius: 50%;
+    box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.1),
+        inset -2px -5px 10px rgba(255, 255, 255, 1),
+        15px 15px 10px rgba(0, 0, 0, 0.05),
+        15px 10px 15px rgba(0, 0, 0, 0.025);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    /* opacity: 0.9; */
+/* }  */
+
+/* .configpayblob:before{
+
+    content: '2';
+    position: absolute;
+    top: 80px;
+    left: 120px;
+    width: 65px;
+    height: 65px;
+    margin: 0;
+    margin-left: 20px;
+    color:#545454;
+    font-weight:bold;
+    background: #eff0f4;
+    border-radius: 50%;
+    box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.1),
+        inset -2px -5px 10px rgba(255, 255, 255, 1),
+        15px 15px 10px rgba(0, 0, 0, 0.05),
+        15px 10px 15px rgba(0, 0, 0, 0.025);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+
+} */
+
+.dupesblobImg{
+    width: 650px;
+}
+
+@media (max-width: 768px){
+    .dupesblobImg{
+        width: 140%;
+    }
+}
+
+.configpayblobImg{
+    width: 800px;
+    margin-left: -100px;
+    margin-top: -30px;
+}
+
+@media (max-width: 768px){
+    .configpayblobImg{
+        width: 160%;
+        margin-left: -19%;
+        margin-top: -30px;
+    }
+}
+
+.remitanceblobImg{
+    width: 730px;
+}
+
+@media (max-width: 768px){
+    .remitanceblobImg{
+        width: 150%;
+    }
+}
+
+/* .remitanceblob:before{
+
+    content: '3';
+    position: absolute;
+    top: 90px;
+    left: 190px;
+    width: 65px;
+    height: 65px;
+    margin: 0;
+    margin-left: 20px;
+    color:#545454;
+    font-weight:bold;
+    background: #eff0f4;
+    border-radius: 50%;
+    box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.1),
+        inset -2px -5px 10px rgba(255, 255, 255, 1),
+        15px 15px 10px rgba(0, 0, 0, 0.05),
+        15px 10px 15px rgba(0, 0, 0, 0.025);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+
+} */

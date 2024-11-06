@@ -1,0 +1,32 @@
+.myBG {
+    background-image: url('../../public/services/images/retailBackWave.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.floatingImg {
+    animation: floatAnim 3s ease-in-out infinite;
+}
+
+@keyframes floatAnim {
+    0% {
+        transform: translate(0px, 0px);
+    }
+
+    50% {
+        transform: translate(0px, 20px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+.backOfficeBG {
+    background-image: url('../../public/services/images/backOfficeBG-min.jpg');
+    /* background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('../../public/services/images/mobilePayment.webp'); */
+    /* background-position: center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}

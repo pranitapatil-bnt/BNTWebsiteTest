@@ -1,0 +1,123 @@
+
+.navOnScroll {
+    background-color:#fff;
+    box-shadow: -4px -3px 5px 1px #90caf9;
+}
+
+.navList{
+    font-family: Montserrat!important; 
+    font-size: 14px!important;
+     color: #616161!important;
+}
+
+.navActive{
+    font-family: Montserrat!important; 
+    font-size: 14px!important;
+    color:#2196f3!important;
+    /* padding-bottom:3px; */
+    /* border-bottom: 1px solid #2196f3!important; */
+}
+
+
+
+/* Navbar2 */
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    background-color: #fff;
+    box-shadow: -4px -3px 5px 1px #90caf9;
+    position: fixed;
+    padding: 0px 50px;
+    background-color: #fff;
+    z-index:99
+    
+  }
+  .navbarlogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ff3f34;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px 20px;
+  }
+  
+  .navbarlinks {
+    list-style-type: none;
+    display: flex;
+  }
+  .navbarlinks li a {
+    display: block;
+    font: inherit;
+    text-decoration: none;
+    color: black;
+    font-size:14px;
+    font-family: Montserrat !important;
+    color: #616161;
+    transition: 0.4s all;
+   
+  }
+  .dropdown a{
+      margin-left:20px;
+  }
+  
+  .navbarlinks li.navbardropdown {
+    position: relative;
+  }
+  
+  .navbarlinks li.navbardropdown:hover .dropdown {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  
+  .navbarlinks li.navbardropdown .dropdown {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    padding: 20px 0;
+    top: 160%;
+    transform: translateY(50px);
+    left: 0;
+    width: 250px;
+    background-color: #fff;
+    box-shadow: 0px 5px 5px 1px rgba(0, 0, 0, 0.1);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    z-index: 111;
+    transition: 0.4s all;
+    border-top: 2px solid #1b89f7;
+  }
+  .navbarlinks li.navbardropdown .dropdown a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 400;
+  }
+  .navbardropdown .dropdown a:hover {
+    padding-left: 10px;
+  }
+  .navbarlinks li a:hover {
+    color: blue;
+  }
+  
+
+  @keyframes animateVertical {
+    0% {
+      transform: scaleY(0);
+      visibility: hidden;
+    }
+    100% {
+      transform: scaleY(1);
+      visibility: visible;
+    }
+  }
+  
+  /* Apply the animation to the div */
+  .mobileNavbarDropdow {
+    animation-name: animateVertical;
+    animation-duration: 0.3s; /* Adjust the duration as needed */
+    animation-timing-function: ease-in-out; /* Adjust the timing function as needed */
+  }

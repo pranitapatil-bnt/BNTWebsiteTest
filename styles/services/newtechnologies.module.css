@@ -1,0 +1,53 @@
+
+.newtechBg{
+    background-image: url('../../public/services/images/newtechBg-min.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* filter: blur(8px);
+    -webkit-filter: blur(5px); */
+}
+
+.blockchainBG {
+    background-image: url('../../public/services/images/blocktechnology-min.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bigDataBg {
+    background-image: url('../../public/services/images/bigDataBg-min.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.APIdevBG {
+    background-image: url('../../public/services/images/APIdevBG-min.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.AItechBG {
+    background-image: url('../../public/services/images/AItech-min.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+}
+
+.joinUs{
+    position: relative;
+    z-index: 1;
+}
+
+.joinUs::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../../public/aboutus/images/joinUs4New.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(1px);
+  }

@@ -1,0 +1,106 @@
+.leaders {
+    position: relative;
+    /* background-image: url('../../public/aboutus/images/leaders/leader1.jpg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.linkedinBox {
+    height: 0px;
+    background-color: rgba(15, 15, 14, 0.15);
+    position: absolute;
+    display:flex;
+    align-items: end;
+    justify-content: center;    
+    bottom: 0;
+    /* display: none; */
+    opacity: 0;
+    padding-bottom:0px;
+    width: 100%;
+    cursor:pointer;
+    transition: height 0.4s ease-in-out, padding-bottom 0.4s ease-in-out;
+}
+
+.leaders:hover .linkedinBox {
+    height: 100%;
+    padding-bottom:50px;
+    opacity: 1;
+}
+
+
+/* .leaders:hover  */
+
+
+
+
+.leaders:before {
+    content: '';
+    position: absolute;
+    top: 13px;
+    right: 13px;
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgb(199, 134, 243);
+    background-color: white;
+    z-index: -99;
+}
+
+
+
+/* .leader3BG:before {
+    content: '';
+    position: absolute;
+    top: 13px;
+    left: 13px;
+    width: 100%;
+    height: 100%;
+    border:1px solid rgb(199, 134, 243);
+    z-index: -99;
+} */
+
+
+.OurmissionLeftSection {
+    position: relative;
+    background-image: url('../../public/aboutus/images/ourmission/leftSectionOurMission.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.OurmissionRightSection {
+    position: relative;
+    background-image: url('../../public/aboutus/images/ourmission/rightSectionOurMissionMinNew.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.aboutBnt {
+    position: relative;
+    background-image: url('../../public/aboutus/images/aboutBnt/aboutBntMinNew.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.joinUs {
+    position: relative;
+    z-index: 1;
+}
+
+.joinUs::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../../public/aboutus/images/joinUs4New.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(1px);
+}
+
+.ourMission {
+    /* background-image: url('../../public/aboutus/images/ourmission/ourmission.jpg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+}

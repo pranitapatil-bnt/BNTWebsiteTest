@@ -1,0 +1,74 @@
+.myBG {
+    background-image: url('../../public/blogs/images/blogsBG.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: grid;
+        place-items: center;
+        color: white;
+    }
+    
+    /* new */
+    
+    .blogCard {
+        border-radius: 0;
+    }
+    
+    .blogCard_media {
+        transition: 0.4s ease;
+        /* height: 200px; */
+    }
+    
+    .blogCard_media:hover {
+        -webkit-transform: scale(1.10);
+        transform: scale(1.10)
+    }
+    
+    .blogCard_CardContent {
+        background-color: #fafbff;
+    }
+    
+    .blogCard_CardContent_Box {
+        /* min-height: 270px; */
+        /* position: 'relative' */
+    }
+    
+    .blogCard_title {
+        font-family: 'Alexandria';
+        font-weight: 500;
+    }
+    
+    .blogCard_desc {
+        font-family: 'Alexandria' !important;
+        font-weight: 300 !important;
+        color: black !important;
+        font-size: 16px !important;
+    }
+    
+    .blogCard_readMoreBox {
+        bottom: 0;
+        width: 100%;
+        height: 50px;
+        background-color: #dee6ff;
+        border-radius: 200px;
+        border: 1px solid transparent;
+        /* margin-top: 30px; */
+        /* position: absolute; */
+    
+    }
+    
+    .blogCard_readMoreTitle {
+        display: grid;
+    place-items: center;
+}
+
+/* @media (max-width:600px) {
+    .blogCard_CardContent_Box {
+        min-height: auto;
+        position: static;
+    }
+
+    .blogCard_readMoreBox {
+        position: static;
+    }
+} */

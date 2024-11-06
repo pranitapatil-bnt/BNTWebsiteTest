@@ -1,0 +1,48 @@
+
+
+.swiper-slide {
+  background-position: center!important;
+  background-size: cover!important;
+  width: 300px!important;
+  height: 0%!important;
+}
+
+@media (max-width: 768px) {
+  .swiper-slide {
+    width: 250px;
+    height: auto;
+  }
+}
+
+.swiper-slide .imgNew  {
+  width: 400px!important;
+  height: 500px!important;
+  -o-object-fit: cover!important;
+     object-fit: cover!important;
+}
+
+.swiper-slide .reviewCard{
+  width: 300px!important;
+  height: 400px!important;
+ 
+}
+
+.myContainer {
+  position: relative;
+  height: 400px;
+  width: 600px;
+  background-color: #fff;
+  display: block;
+}
+
+@media (max-width: 768px) 	{
+  .myContainer{
+    width: 300px;
+    height:auto;
+  }
+}
+
+.swiper-pagination {
+  display: none;
+}
+

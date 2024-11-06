@@ -1,0 +1,19 @@
+.myBG {
+    /* background-image: url('../../public/career/images/careerBG.jpg'); */
+    background: linear-gradient(rgba(30, 9, 87, 0.6),rgba(30, 9, 87, 0.6)), url('../../public/aboutus/images/lifeatbntBgNew-min.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+}
+
+.table td {
+    vertical-align: top;
+    /* text-align: right; */
+  }
+
+.titleTh{
+    text-align:right;
+    font-family: 'Alexandria';
+    font-size: 14px;
+    color: #616060;
+}  

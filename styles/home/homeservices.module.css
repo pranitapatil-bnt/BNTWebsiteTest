@@ -1,0 +1,26 @@
+.slide_top {
+    animation: slide-top 1.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes slide-top {
+    0% {
+              transform: translateY(100px);
+    }
+    100% {
+              transform: translateY(0);
+    }
+  }
+
+  .rotatePoly{
+    animation: rotatePolygon 15s linear infinite;
+
+  }
+
+  @keyframes rotatePolygon{
+    from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(359deg);
+      }
+    }

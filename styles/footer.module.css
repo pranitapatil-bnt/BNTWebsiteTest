@@ -1,0 +1,14 @@
+
+.bb ul li {
+    font-size:15px;
+    font-weight:300;
+    margin-bottom: 7px;
+}
+
+@media (max-width: 768px) {
+.bb ul li {
+    display:flex;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+}

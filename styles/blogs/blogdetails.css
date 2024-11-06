@@ -1,0 +1,94 @@
+.blogDetails_outer_container {
+    margin: 30px 100px;
+}
+
+.blogDetails_BackToAllBlogs {
+    cursor: pointer;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.blogDetails_inner_container {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.blogDetails_left_container {
+    width: 70%;
+}
+
+.blogDetails_main_image{
+    width: 100%;
+    height:370px
+}
+
+.blogDetails_heading_h1{
+    line-height:1.1!important;
+    margin:40px 0 20px 0!important;
+    font-size:40px!important;
+    color:#262626!important;
+    font-weight:500!important;
+    }
+
+.blogDetails_heading_h2{
+    line-height:1.1;
+    margin:20px 0 20px 0;
+    font-size:22px;
+    color:#262626;
+    font-weight:500;
+    }
+
+   .blogDetails_left_container p{
+        color:#5e5e5e;
+        font-size:16px;
+        font-weight:300;
+    }
+
+    .blogDetails_left_container  li{
+        color:#303030;
+        font-size:16px;
+        font-weight:300;
+        margin-bottom:15px
+    }
+
+  .blogDetails_left_container  table {
+        border-collapse: collapse;
+        width: 100%;
+        border: 1px solid #000; /* Set the border for the entire table */
+        margin-bottom: 40px;
+        margin-top:20px;
+    
+      }
+  
+    .blogDetails_left_container  td,th {
+        border: 1px solid #000; /* Set borders for individual cells */
+        padding: 8px;
+      }
+
+
+
+
+
+@media (max-width:600px) {
+    .blogDetails_outer_container {
+        margin: 30px 20px;
+    }
+
+    .blogDetails_inner_container {
+        flex-direction: column;
+    }
+
+    .blogDetails_left_container {
+        width: 100%;
+    }
+
+    .blogDetails_main_image{
+        height:170px
+    }
+    
+
+}

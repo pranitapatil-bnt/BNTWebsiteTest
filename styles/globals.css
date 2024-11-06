@@ -1,0 +1,137 @@
+/* * {
+  box-sizing: border-box;
+} */
+html,
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  font-family: 'Alexandria';
+}
+
+
+html {
+  scrollbar-width: thin;
+  scrollbar-color: #1e8be1 rgb(219, 216, 216);
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  /* padding-top: 55px; */
+}
+@media (max-width: 768px) {
+  body{
+    padding-top: 55px;
+  }
+
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.homeSpan {
+  color: pink;
+}
+
+@media (prefers-color-scheme: light) {
+  html {
+    font-family: 'Alexandria'
+  }
+
+  body {
+    color: black;
+    background: white;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+  }
+}
+
+/* lines background animation css */
+
+
+
+#home {
+  clip-path: url(#cache);
+}
+
+#red {
+  fill: none;
+  opacity: 0.15;
+  stroke: #CE1B5F;
+  stroke-width: 12;
+  stroke-miterlimit: 10;
+  animation: show 4s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+#blue {
+  fill: none;
+  opacity: 0.15;
+  stroke: #06A1C4;
+  stroke-width: 12;
+  stroke-miterlimit: 10;
+  animation: show 4s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+#light-blue {
+  fill: none;
+  opacity: 0.15;
+  stroke: #06A1C4;
+  stroke-width: 6;
+  stroke-miterlimit: 10;
+  stroke-dasharray: 200;
+  stroke-dashoffset: 800;
+  animation: draw 4s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes show {
+  0% {
+    opacity: 0.15;
+  }
+
+  50% {
+    opacity: 0.2;
+  }
+
+  100% {
+    opacity: 0.15;
+  }
+}
+
+.css-i4bv87-MuiSvgIcon-root {
+  color: blue!important
+}
+#paraId {
+  color: red;
+}
+
+#containerBox {
+  color: purple;
+}
+
+#myNitin{
+  color:yellow;
+}

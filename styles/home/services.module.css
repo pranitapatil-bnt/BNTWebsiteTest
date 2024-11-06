@@ -1,0 +1,57 @@
+
+.box {
+    height:350px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.section1{
+    background-image: url('../../public/home/images/whyus/paymentServiceMInNew.webp');
+}
+.section2{
+    background-image: url('../../public/home/images/whyus/retailServiceMin.webp');
+}
+.section3{
+    background-image: url('../../public/home/images/whyus/expertServiceMinNew.webp');
+}
+.section4{
+    background-image: url('../../public/home/images/whyus/startupServiceMinNew.webp');
+}
+
+
+.btn {
+    box-sizing: border-box;
+    background-color: transparent;
+    border: 1px solid #1e8be1;
+    color: #e74c3c;
+    cursor: pointer;
+    display: flex;
+    align-self: center;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1;
+    margin: 20px;
+    margin-left:0px;
+    padding: 10px;
+    text-decoration: none;
+    font-family: 'Alexandria';
+    text-align: center;
+    text-transform: none;
+  }
+  .btn:hover, .btn:focus {
+    color: #fff;
+    outline: 0;
+  }
+
+  .fourth {
+    border-color: #1e8be1;
+    color: #1e8be1;
+    background-image: linear-gradient(45deg, #1e8be1 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    transition: background 300ms ease-in-out;
+  }
+  .fourth:hover {
+    background-position: 0;
+  }
+  

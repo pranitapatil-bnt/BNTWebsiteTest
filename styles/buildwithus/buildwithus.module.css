@@ -1,0 +1,12 @@
+.newtechBg{
+    /* background-image: url('../../public/buildwithus/connectUsBG.jpg'); */
+    /* background: linear-gradient(rgba(37, 37, 37, 0.6),rgba(30, 9, 87, 0.6)), url('../../public/buildwithus/connectUsBG.jpg'); */
+    background: linear-gradient(rgba(17, 17, 17, 0.7),rgba(17, 17, 17, 0.7)), url('../../public/buildwithus/connectUsBG-min.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.table td {
+    vertical-align: top;
+  }
