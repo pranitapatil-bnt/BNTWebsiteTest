@@ -44,6 +44,8 @@ function MyApp({ Component, pageProps }) {
         <meta property="og:https://bnt-soft.com/" content="BNT Soft" />
         <meta name="keywords" content="payments, fintek, Itservices,forex exchange" />
         <meta name="author" content="Pranita Patil" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>BNT soft</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
