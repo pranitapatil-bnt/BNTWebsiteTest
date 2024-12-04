@@ -38,10 +38,12 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <meta name="description" content="Bnt payment services" />
         <meta property="og:title" content="BNT Soft - Payment Services demo" />
-        <meta property="og:description" content="BNT Soft payment services for your financial and IT needs." />
-        <meta property="og:image" content="/public/home/images/BNtlogo.jpeg" />
+        <meta property="og:description" content="BNT Soft payment services for your financial and IT needs demo." />
+        <meta property="og:image" content="https://bnt-soft.com/public/home/images/BNtlogo.jpeg" />
+        <meta property="og:type" content="website" />
+        <meta property="og:https://bnt-soft.com/" content="BNT Soft" />
         <meta name="keywords" content="payments, fintek, Itservices,forex exchange" />
-        <meta name="author" content="Nitin Hirve" />
+        <meta name="author" content="Pranita Patil" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>BNT soft</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
