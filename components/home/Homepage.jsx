@@ -69,7 +69,7 @@ const Homepage = () => {
                 <Box sx={{ position: 'relative', width: { xs: '100%', sm: '50%' }, height: { xs: 'auto', sm: '100%' } }}>
                     <Box sx={{ position: 'absolute', right: '20px', top: {xs:'45px',sm:'120px'},marginLeft:{xs:'30px'}  }}>
                         <Typography data-aos="fade-down" sx={{ color: '#424242', fontFamily: 'Alexandria', fontWeight: '200', fontSize: '35px' }}>
-                            Building and Integrating
+                            Building and Integrating demo
                         </Typography>
                         <Typography className={stylesWhyus.headingH1} data-aos="fade-right" style={{ fontFamily: 'Alexandria', fontWeight: '300', color: '#1a237e', fontSize: '60px' }}>Next-Gen</Typography>
                         <Typography data-aos="fade-right" style={{ fontFamily: 'Alexandria', fontWeight: '300', color: '#1a237e', fontSize: '60px', marginTop: '-10px', }}>
