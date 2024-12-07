@@ -36,9 +36,9 @@ function MyApp({ Component, pageProps }) {
   return <>
     <ThemeProvider theme={theme}>
       <Head>
-        <meta name="description" content="Bnt payment services" />
-        <meta name="title" property="og:title" content="BNT Soft - Payment Services demo" />
-        <meta name="description" property="og:description" content="BNT Soft payment services for your financial and IT needs demo demo." />
+        <meta name="description" content="Bnt payment servicesservices" />
+        <meta name="title" property="og:title" content="BNT Soft - Payment Services demodemodemodemo" />
+        <meta name="description" property="og:description" content="BNT Soft payment services for your financial and IT needs demodemodemodemo." />
         <meta name="image" property="og:image" content="https://bnt-soft.com/home/images/BNtlogo.jpeg" />
         <meta property="og:type" content="website" />
         <meta property="og:https://bnt-soft.com/" content="BNT Soft" />
