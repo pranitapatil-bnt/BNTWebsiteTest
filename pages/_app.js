@@ -38,7 +38,7 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <meta name="description" content="Bnt payment servicesservices" />
         <meta name="title" property="og:title" content="BNT Soft - Payment Services demodemodemodemo testingonetwo" />
-        <meta name="description" property="og:description" content="BNT Soft payment services for your financial and IT needs demodemodemodemo testing." />
+        <meta name="description" property="og:description" content="BNT Soft payment services for your financial and IT needs demodemodemodemo testing onetwothreefour." />
         <meta name="image" property="og:image" content="https://bnt-soft.com/home/images/BNtlogo.jpeg" />
         <meta property="og:type" content="website" />
         <meta property="og:https://bnt-soft.com/" content="BNT Soft" />
