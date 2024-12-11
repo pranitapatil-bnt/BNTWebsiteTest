@@ -16,7 +16,7 @@ const UsCard = ({ blogIndex, cardDetail, title, cardImage, desc, wrapHeight }) =
 
     return (
         <>
-            <Link href={{ pathname: '/blogs/blogdetails', query: {folderName:cardDetail.folderName, blogIndex } }}>
+            <Link href={`/blogs/${cardDetail.folderName}` }>
 
                 <Card className={styles.blogCard} elevation={0}>
                     <CardActionArea elevation={0}>
