@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { Box, Typography } from '@mui/material'
 import { FaArrowLeft } from "react-icons/fa";
 import BlogCard from './BlogCard'
-
+import Head from 'next/head';
 
 const BlogDetails = ({ blogDetail }) => {
 
@@ -78,6 +78,13 @@ const BlogDetails = ({ blogDetail }) => {
 
     return (
         <>
+            {/* Dynamic Head Section */}
+            <Head>
+                <meta property="og:title" content="The Role of BaaS" />
+                <meta property="og:description" content="A detailed explanation of Banking as a Service (BaaS)..." />
+                <meta property="og:image" content="https://bntblogs.s3.ap-south-1.amazonaws.com/contents/the_role_of_baas/the_role_of_baas.jpg" />
+                <meta property="og:url" content="https://bnt-soft.com/blogs/the_role_of_baas" />
+            </Head>
             {
                 allBlogs && (
                     <Box className={'blogDetails_outer_container'} >
