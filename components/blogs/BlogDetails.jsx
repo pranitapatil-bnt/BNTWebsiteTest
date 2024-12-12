@@ -7,7 +7,9 @@ import Head from 'next/head';
 
 const BlogDetails = ({ blogDetail }) => {
 
-    const [allBlogs, setAllBlogs] = useState(null)
+    const [allBlogs, setAllBlogs] = useState(null);
+    const [blogDetailsFromS3, setBlogDetailsFromS3] = useState('');
+    const [ogMetaData, setOgMetaData] = useState({});
 
     const getBlogsJsonData = async () => {
         console.log("Inside getBlogsJsonData")
@@ -21,7 +23,7 @@ const BlogDetails = ({ blogDetail }) => {
 
     }
 
-    const [blogDetailsFromS3, setBlogDetailsFromS3] = useState('')
+
     // let allBlogs = []
     if ((window !== 'undefined') && (allBlogs === null)) {
         const allBlogsFromLocatStrorage = JSON.parse(localStorage.getItem('allBlogs'))
@@ -56,8 +58,18 @@ const BlogDetails = ({ blogDetail }) => {
         const response = await fetch(`https://bntblogs.s3.ap-south-1.amazonaws.com/contents/${folderName}/${folderName}.txt`)
         const data = await response.text()
         setBlogDetailsFromS3(data)
-    }
 
+        // Fetch Open Graph Metadata
+        const ogData = allBlogs?.find((blog) => blog.folderName === folderName);
+        if (ogData) {
+            setOgMetaData({
+                title: ogData.heading,
+                description: ogData.desc,
+                image: ogData.image,
+                url: `https://bnt-website-test.vercel.app/blogs/${folderName}`,
+            });
+        }
+    };
 
     useEffect(() => {
         getBlogDetails()
@@ -78,12 +90,11 @@ const BlogDetails = ({ blogDetail }) => {
 
     return (
         <>
-            {/* Dynamic Head Section */}
             <Head>
-                <meta property="og:title" content="The Role of BaaS" />
-                <meta property="og:description" content="A detailed explanation of Banking as a Service (BaaS)..." />
-                <meta property="og:image" content="https://bntblogs.s3.ap-south-1.amazonaws.com/contents/the_role_of_baas/the_role_of_baas.jpg" />
-                <meta property="og:url" content="https://bnt-soft.com/blogs/the_role_of_baas" />
+                <meta property="og:title" content={ogMetaData.title || 'Default Title'} />
+                <meta property="og:description" content={ogMetaData.description || 'Default Description'} />
+                <meta property="og:image" content={ogMetaData.image || '/default-image.jpg'} />
+                <meta property="og:url" content={ogMetaData.url || 'https://bnt-website-test.vercel.app'} />
             </Head>
             {
                 allBlogs && (
