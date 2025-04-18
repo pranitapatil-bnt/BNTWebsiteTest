@@ -57,6 +57,8 @@ function MyApp({ Component, pageProps }) {
         <link href='https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/css/demo.css' rel='stylesheet' type='text/css'></link>
         <script defer type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
         <script defer nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-GFP0VXV0Z4"></script> 
+        <script>   window.dataLayer = window.dataLayer || [];   function gtag(){dataLayer.push(arguments)}   gtag('js', new Date());   gtag('config', 'G-GFP0VXV0Z4'); </script>
       </Head>
 
 
